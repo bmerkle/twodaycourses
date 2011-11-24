@@ -15,4 +15,6 @@ int main()
     mylib::file & gii = root.create_file("gii");
     gii.set_date(mylib::date(2011,3,14));
     assert(gii.date() == mylib::date(2011,3,14));
+
+    return 0;
 }

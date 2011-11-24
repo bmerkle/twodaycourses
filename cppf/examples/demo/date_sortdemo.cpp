@@ -59,4 +59,6 @@ int main()
     bubble_sort(strings.begin(), strings.end());
     std::copy(strings.begin(), strings.end(),
               std::ostream_iterator<std::string>(std::cout,"\n"));
+
+    return 0;
 }

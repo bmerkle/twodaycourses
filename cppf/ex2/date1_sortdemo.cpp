@@ -25,4 +25,6 @@ int main(void)
     bubble_sort_dates(dates, ndates);
     for (size_t i=0; i<ndates; i++)
         printf("%d/%d/%d\n", dates[i].year, dates[i].month, dates[i].day);
+
+    return 0;
 }

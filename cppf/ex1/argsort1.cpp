@@ -12,5 +12,6 @@ int main(int argc, char * argv[])
     qsort(argv, argc, sizeof *argv, compare);
     for (int i = 0; i < argc; i++)
         puts(argv[i]);
+
     return 0;
 }

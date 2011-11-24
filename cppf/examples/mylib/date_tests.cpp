@@ -21,4 +21,6 @@ int main(void)
     assert( mylib::date(2000,3,1) - mylib::date(2000,2,28) == 2 );
     assert( mylib::date(2001,1,1) - mylib::date(2000,1,1) == 366 );
     assert( mylib::date(2099,12,31) - mylib::date(1900,1,1) == 73048 );
+
+    return 0;
 }

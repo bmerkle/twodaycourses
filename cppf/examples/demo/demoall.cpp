@@ -41,4 +41,6 @@ int main()
     std::cout << rul;
     rul.push_front(&bar);
     std::cout << rul;
+
+    return 0;
 }

@@ -48,4 +48,6 @@ int main(void)
         for (mylib_date d = d2; !mylib_date_is_equal(&d,&d1); mylib_date_offset(&d,-1))
             assert(mylib_date_is_valid(&d));
     }
+
+    return 0;
 }

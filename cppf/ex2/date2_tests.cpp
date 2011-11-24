@@ -46,4 +46,6 @@ int main(void)
         for (mylib::date d(d2); !d.is_equal(d1); d.offset(-1))
             assert(d.is_valid());
     }
+
+    return 0;
 }

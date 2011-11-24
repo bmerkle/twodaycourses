@@ -30,4 +30,6 @@ int main()
         << " days apart\n"
         << just_another_day << " is 42 days before Pi day, which is"
         << (is_same?" ":" not ") << "the last day of january" << std::endl;
+
+    return 0;
 }

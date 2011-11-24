@@ -59,4 +59,6 @@ int main()
 
     my_directory_printer printer(4);
     root.accept(printer);
+
+    return 0;
 }

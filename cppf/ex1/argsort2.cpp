@@ -10,4 +10,6 @@ int main(int argc, char * argv[])
     std::sort(args.begin(), args.end());
     std::ostream_iterator<std::string> out_it(std::cout,"\n");
     std::copy(args.begin(), args.end(), out_it);
+
+    return 0;
 }

@@ -110,4 +110,5 @@ int main(void)
     poker_hand h10(card(ace,hearts), card(king,hearts), card(queen,hearts), card(jack,hearts), card(10,hearts));
     assert(h10.rank() == straight_flush);
 
+    return 0;
 }

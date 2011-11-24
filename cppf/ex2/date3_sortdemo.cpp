@@ -41,4 +41,6 @@ int main(void)
     bubble_sort(dates, ndates);
     std::ostream_iterator<mylib::date> out_it(std::cout,"\n");
     std::copy(dates, dates + ndates, out_it);
+
+    return 0;
 }

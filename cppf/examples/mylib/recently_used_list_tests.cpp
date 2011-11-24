@@ -30,4 +30,6 @@ int main()
     assert(rul.size() == 4);
     assert(rul[0] == "zzz");
     assert(rul[3] == "gaz");
+
+    return 0;
 }

@@ -25,4 +25,6 @@ int main()
     printf("Pi day and Pi approximation day are always %d days apart\n", days_apart);
     printf("%s is 42 days before Pi day, which is%sthe last day of january\n",
            to_string(just_another_day), (is_same?" ":" not "));
+
+    return 0;
 }

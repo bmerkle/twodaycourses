@@ -23,4 +23,6 @@ int main()
         << "(hint, " << pi_approx_day.day() << '/'
         << pi_approx_day.month() << " ~= 3.14)"
         << std::endl;
+
+    return 0;
 }

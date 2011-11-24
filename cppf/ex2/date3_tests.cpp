@@ -38,4 +38,6 @@ int main(void)
         assert( d2 - d1 == 73048 );
         assert( d1 - d2 == -73048 );
     }
+
+    return 0;
 }
